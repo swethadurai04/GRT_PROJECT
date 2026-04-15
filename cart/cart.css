@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sub1{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(87, 1, 1);
+    color: white;
+    text-align: center;
+    
+    
+}
+.sub1_card1{
+    position: absolute;
+    top: 10px;
+    left: 40vw;
+    transform: translateY(-100px);
+    animation-name: card1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes card1{
+   0%{
+      transform: translateY(0px);
+   }
+  
+    100%{
+    transform: translateY(-100px);
+   }
+}
+.sub1_card2{
+    position: absolute;
+    top: 10px;
+    left: 40vw;
+    animation-name: card2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+@keyframes card2{
+   0%{
+      transform: translateY(200px);
+   }
+   
+  
+   100%{
+    transform: translateY(0px);
+    opacity: 1;
+   }
+}
+
+.sub2 img{
+    height: 50px;
+    width: 50px;
+}
+.sub2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.whatsapp{
+    background-color: #476002;
+    height: 30px;
+    width: 220px;
+    padding: 5px 0px 0px 10px;
+    border-radius: 7px;
+    color: white;
+}
+.sub3{
+    width: 50%;
+    padding-left: 80px;
+}
+.sub3_card1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sub3_card1 span{
+    text-decoration: underline;
+}
+.sub3_card2 img{
+    height: 150px;
+    width: 150px;
+}
+.sub3_card2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    line-height: 1.5;
+    border-bottom:2px solid rgb(254, 248, 248);
+    padding-bottom: 50px;
+}
+.coupon_code{
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border: 0.3px solid gainsboro;
+    font-size: 15px;
+    color: #5e0303;
+    border-radius: 7px;
+}
+.sub4_card1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+}
+.apply_code{
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    border: 0.3px solid gainsboro;
+    font-size: 15px;
+    color: #fbf9f9;
+    background-color: #5e0303;
+    border-radius: 7px;
+}
+.sub4_discount img{
+    height: 30px;
+    width: 30px;
+}
+.sub4_discount{
+    width: 320px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 0px 30px 0px 20px;
+    border-radius: 10px;
+}
+.sub4_discount p{
+    display: flex;
+    align-items: center;
+}
+.sub4_discount span{
+    text-decoration: underline;
+}
+.price_line{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.place_order{
+    width: 320px;
+    height: 40px;
+    background-color: #5e0303;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 120px;
+}
+.sub4_price{
+    width: 300px;
+    height: 100%;
+    margin: 10px;
+}
+.underline_card{
+    border-bottom: 0.3px solid gainsboro;
+    border-top: 0.3px solid gainsboro;
+
+}
+.sub4{
+    width: 50%;
+    height: 100%;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 110px;
+    margin-bottom: 30px;
+}
+.flex_card{
+    float: left;
+}
+.sub5_card img{
+    height: 50px;
+    width: 70px;
+}
+.sub5_card{
+    text-align: center;
+    width: 20vw;
+}
+.sub5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0px;
+    background-color: rgb(255, 248, 240);
+
+}
+
+
+
+
+.sub14{
+    height: 100%;
+    width: 90%;
+    font-size: 20px;
+    background-color: rgb(253, 233, 238);
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px 0px;
+    color: rgb(104, 2, 2);
+}
+.grt_logo{
+    height: 150px;
+    width: 220px;
+}
+.sub14_card1{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    margin-bottom: 30px;
+    padding-left: 80px;
+} 
+.after_logo{
+    display: flex;
+    gap: 100px;
+    padding-left: 5vw;
+}
+.fontline{
+    height: 50px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    border-top: 0.7px solid rgb(187, 142, 142);
+    padding-top: 10px;
+}
+.sub14_card2{
+    padding-left: 20vw;
+}
+.sub14_card3{
+    text-align: end;
+    margin-bottom: 30px;
+    padding-right: 10px;
+}
+ .sub2card7 i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #198754;
+    padding: 10px;
+    
+} 

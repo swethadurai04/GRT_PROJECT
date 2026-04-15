@@ -1,0 +1,563 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    color: #5d0202;
+
+}
+.container a{
+    text-decoration: none;
+    color: #5d0202;
+
+}
+.sub1{
+    height: 100%;
+    width: 100%;
+
+}
+.sub1_imgcard img{
+    height: 50px;
+    width: 100px;
+}
+.sub1_card1content img{
+    height: 20px;
+    width: 20px;
+}
+.goldcoin_option{
+   
+    position: relative;
+}
+ .goldcoin_option:hover .option{
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+
+}
+.sub1_card1content{
+    font-size: 12px;
+
+}
+   
+.option{
+    width: 150px;
+    height: 220px;
+    margin-top: 5px;
+    position: absolute;
+     visibility: hidden;
+     right: 0px;
+     
+   
+}
+.option li{
+    list-style: none;
+    padding: 5px 2px;
+}
+.sub1_card1content .store{
+    border-left: 0.5px solid grey;
+    border-right: 0.5px solid grey;
+    padding: 0px 5px;
+}
+.sub1_card1content .clnd{
+    border-right: 0.5px solid grey;
+    padding-right: 5px;
+}
+.sub1_card1content .india{
+    border-right: 0.5px solid grey;
+    padding-right: 5px;
+}
+
+.sub1_card1content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.gold_coin{
+    display: flex;
+}
+.sub1card1{
+    width: 85%;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.india{
+    display:flex;
+    align-items: center;
+}
+
+.sub1card2{
+    border-top: 0.5px solid #eed8e2;
+}
+.sub1card2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5vw;
+    font-size: 15px;
+}
+.sub1card2_imgcard img{
+    height: 50px;
+    width: 100px;
+}
+.sub1card2_imgcard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.searchcard{
+    height: 40px;
+    display: flex;
+}
+.searchcard i{
+  background-color: rgb(99, 1, 1);
+  color: white;
+  padding: 10px 25px 10px 15px;
+   border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchcard input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.sub1card2_endline{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.heart{
+    font-size: x-large;
+    position: relative;
+     border-right: 0.5px solid rgb(240, 73, 151);
+    border-left: 0.5px solid rgb(247, 81, 153);
+    padding: 0px 6px; 
+}
+.heart_count{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding-left: 3px;
+    font-size: small;
+    background-color: rgb(104, 3, 3);
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: -1px;
+}
+.cart_card{
+    position: relative;
+    font-size: x-large;
+}
+.cart_count{
+     height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding-left: 3px;
+    font-size: small;
+    background-color: rgb(104, 3, 3);
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;   
+}
+
+.sub1card3_subcontent img{
+    height: 40px;
+    width: 40px;
+}
+.sub1card3_subcontent li{
+    display: flex;
+    align-items: center;
+}
+.sub1card3_subcontent{
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.sub1card3_headingimg img{
+    height: 150px;
+    width: 300px;
+}
+.sub1card3_headingimg{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+}
+.sub1card3_headingcontent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    visibility: hidden;
+    left: 0;
+    background-color: white;
+}
+
+.sub1card3_heading:hover .sub1card3_headingcontent{
+    visibility: visible;
+    cursor: pointer;
+}
+.sub1card3{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: bisque;
+} 
+
+.headingcontent2{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.headingcontent4{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plancard{
+     height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+     background: linear-gradient(to left,rgba(150, 2, 19,0.9),rgba(254, 103, 103, 0.94),rgba(169, 3, 6,0.9));
+}
+.sub1card3_heading:hover{
+    text-decoration: underline;
+}
+ .sub1card3_headingcontent li:hover{
+    text-decoration: underline;
+}
+.headingcontent5{
+    /* padding-left: 330px; */
+    margin-left: 330px;
+    height: 120px;
+    width: 100px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.headingcontent6{
+    /* padding-left: 420px; */
+    margin-left: 430px;
+    width: 100px;
+    height: 50px;
+}
+.headingcontent8{
+    /* padding-left: 650px; */
+    margin-left: 650px;
+    width: 100px;
+    height: 150px;
+}
+.mediacard img{
+    height: 20px;
+    width: 20px;
+}
+.media_card1 img{
+    height: 50px;
+    width: 60px;
+}
+.media_card1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mediacard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.media_fonts{
+    display: flex;
+}
+.media_fonts .heart{
+    border: none;
+}
+.Search_media{
+    display: flex;
+    justify-content: left;
+}
+.sub1_mediaquery{
+  transform: translateY(-500%);
+    position: absolute;
+    overflow: hidden;
+}
+.nav_list{
+    visibility: hidden;
+    position: absolute;
+}
+nav:hover .nav_list{
+    visibility: visible;
+    background-color: white;
+}
+nav a{
+    text-decoration: none;
+    color: #5d0202;
+}
+.nav_card1{
+    display: flex;
+}
+.nav_card1 img{
+    height: 20px;
+    width: 30px;
+}
+
+/* sub2 styles */
+.sub2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 224, 250);
+}
+.sub2_imgs{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.sub2_imgcard{
+     height: 30vh;
+     width: 10vw;
+     text-align: center;
+}
+.sub2_imgcard img{
+    width: 10vw;
+    height: 20vh;
+    border: 0.5px solid gainsboro;
+}
+.sub2 h3{
+    text-align: center;
+    color: rgb(108, 3, 3);
+    font-size: 2rem;  
+    padding-top: 30px;
+    padding-bottom: 20px;
+         
+}
+.sub2_imgs i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: pink;
+    padding: 10px;
+    margin: 0px 30px;
+}
+.filters{
+    height: 30px;
+    width: 100px;
+    border: 0.5px solid rgb(236, 143, 158);
+    background-color: rgb(251, 208, 215);
+    padding: 5px 1px 5px 15px;
+    border-radius: 5px;
+    
+}
+.items{
+   display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.sort{
+    height: 30px;
+    width: 150px;
+    border: 0.5px solid rgb(234, 158, 170);
+    background-color: rgb(241, 193, 201);  
+    padding: 5px 1px 5px 15px;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+.sub2_card2{
+    width: 90vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;  
+}
+.sub2_card3{
+    display: flex;
+    gap: 10px;
+    justify-self: end;
+    margin-right: 100px;
+}
+.bestseller{
+    height: 40px;
+    width: 130px;
+    font-size: small;
+     background-color: rgb(249, 160, 122);
+    padding: 10px;
+    border-radius: 5px;
+}
+.quick{
+    height: 40px;
+    width: 150px;
+    font-size: small;
+    padding: 10px;
+    background-color: rgb(250, 172, 84);
+    border-radius: 5px;
+}
+.new{
+    height: 40px;
+    width: 100px;
+    font-size: small;
+    padding: 10px;
+    background: linear-gradient(to left, rgb(101, 206, 248),rgb(149, 239, 244),rgb(65, 193, 244) );
+    border-radius: 5px;
+}
+ .sub2_girdcard{
+    height: 330px;
+    /* width: 300px; */
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    
+   
+}
+@keyframes card{
+    from{ 
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.sub2_girdcard img{
+    height: 250px;
+    /* width: 300px; */
+    border-radius: 10px;
+    margin-bottom: 30px;
+     animation-name: card;
+    animation-timeline: view();
+    animation-range: entry 20% cover 50%;
+} 
+.sub2_girdcard  pre{
+    /* position: absolute; */
+    bottom: 5px;
+    left: 5px;
+}
+ 
+.like_font{
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+     position: absolute;
+     top: 5px;
+     left: 10px;
+      animation-name: card;
+    animation-timeline: view();
+    animation-range: entry 20% cover 50%;
+}
+.like_font i{
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+     border: 0.3px solid rgb(130, 130, 130);
+     background-color: transparent;
+     padding: 10px;
+         
+}
+span{
+    text-decoration: line-through;
+    font-size: small;
+    color: grey;
+}
+.sub2_card4{
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px 100px;
+    
+}
+.hover_img{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+.hover_img:hover{
+    opacity: 1;
+}
+.sub3_content{
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+   
+}
+.sub3{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(252, 223, 227);
+    font-size: large;
+    line-height: 35px;
+    margin: 30px 0px;
+    padding: 50px 0px;
+
+}
+
+/* footer card  */
+
+.sub14{
+    height: 100%;
+    width: 90vw;
+    font-size: 20px;
+    background-color: rgb(253, 233, 238);
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    color: rgb(104, 2, 2);
+}
+.grt_logo{
+    height: 150px;
+    width: 220px;
+}
+.sub14_card1{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-left: 80px; 
+}
+.after_logo{
+    display: flex;
+    gap: 100px;
+    padding-left: 5vw;
+}
+.fontline{
+    height: 50px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    border-top: 0.7px solid rgb(187, 142, 142);
+    padding-top: 10px;
+}
+.sub14_card2{
+    padding-left: 20vw;
+}
+.sub14_card3{
+    text-align: end;
+    margin-bottom: 30px;
+    padding-right: 10px;
+}
+ .sub2card7 i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #198754;
+    padding: 10px;
+    
+}

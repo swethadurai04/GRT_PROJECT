@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+
+}
+.container a{
+    text-decoration: none;
+}
+.sub1{
+    height: 100%;
+    width: 100%;
+
+}
+.sub1_imgcard img{
+    height: 50px;
+    width: 100px;
+}
+.sub1_card1content img{
+    height: 20px;
+    width: 20px;
+}
+.goldcoin_option{
+   
+    position: relative;
+}
+ .goldcoin_option:hover .option{
+    visibility: visible;
+    opacity: 1;
+    background-color: white;
+
+}
+.sub1_card1content{
+    font-size: 12px;
+
+}
+   
+.option{
+    width: 150px;
+    height: 220px;
+    margin-top: 5px;
+    position: absolute;
+     visibility: hidden;
+     right: 0px;
+     
+   
+}
+.option li{
+    list-style: none;
+    padding: 5px 2px;
+}
+.sub1_card1content .store{
+    border-left: 0.5px solid grey;
+    border-right: 0.5px solid grey;
+    padding: 0px 5px;
+}
+.sub1_card1content .clnd{
+    border-right: 0.5px solid grey;
+    padding-right: 5px;
+}
+.sub1_card1content .india{
+    border-right: 0.5px solid grey;
+    padding-right: 5px;
+}
+
+.sub1_card1content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.gold_coin{
+    display: flex;
+}
+.sub1card1{
+    width: 85%;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.india{
+    display:flex;
+    align-items: center;
+}
+
+.sub1card2{
+    border-top: 0.5px solid #eed8e2;
+}
+.sub1card2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5vw;
+    font-size: 15px;
+}
+.sub1card2_imgcard img{
+    height: 50px;
+    width: 100px;
+}
+.sub1card2_imgcard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.searchcard{
+    height: 40px;
+    display: flex;
+}
+.searchcard i{
+  background-color: rgb(99, 1, 1);
+  color: white;
+  padding: 10px 25px 10px 15px;
+   border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchcard input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.sub1card2_endline{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.heart{
+    font-size: x-large;
+    position: relative;
+     border-right: 0.5px solid rgb(240, 73, 151);
+    border-left: 0.5px solid rgb(247, 81, 153);
+    padding: 0px 6px; 
+}
+.heart_count{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding-left: 3px;
+    font-size: small;
+    background-color: rgb(104, 3, 3);
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: -1px;
+}
+.cart_card{
+    position: relative;
+    font-size: x-large;
+}
+.cart_count{
+     height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding-left: 3px;
+    font-size: small;
+    background-color: rgb(104, 3, 3);
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;   
+}
+
+.sub1card3_subcontent img{
+    height: 40px;
+    width: 40px;
+}
+.sub1card3_subcontent li{
+    display: flex;
+    align-items: center;
+}
+.sub1card3_subcontent{
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.sub1card3_headingimg img{
+    height: 150px;
+    width: 300px;
+}
+.sub1card3_headingimg{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+}
+.sub1card3_headingcontent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    visibility: hidden;
+    left: 0;
+    background-color: white;
+}
+
+.sub1card3_heading:hover .sub1card3_headingcontent{
+    visibility: visible;
+    cursor: pointer;
+}
+.sub1card3{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: bisque;
+} 
+
+.headingcontent2{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.headingcontent4{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plancard{
+     height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+     background: linear-gradient(to left,rgba(150, 2, 19,0.9),rgba(254, 103, 103, 0.94),rgba(169, 3, 6,0.9));
+}
+.sub1card3_heading:hover{
+    text-decoration: underline;
+}
+ .sub1card3_headingcontent li:hover{
+    text-decoration: underline;
+}
+.headingcontent5{
+    padding-left: 330px;
+    /* height: 200px; */
+}
+.headingcontent6{
+    padding-left: 420px;
+}
+.headingcontent8{
+    padding-left: 650px;
+}
+.mediacard img{
+    height: 20px;
+    width: 20px;
+}
+.media_card1 img{
+    height: 50px;
+    width: 60px;
+}
+.media_card1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mediacard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.media_fonts{
+    display: flex;
+}
+.media_fonts .heart{
+    border: none;
+}
+.Search_media{
+    display: flex;
+    justify-content: left;
+}
+.sub1_mediaquery{
+    transform: translateY(-500%);
+}
+.nav_list{
+    visibility: hidden;
+    position: absolute;
+}
+nav:hover .nav_list{
+    visibility: visible;
+    background-color: white;
+}
+nav a{
+    text-decoration: none;
+    color: #5d0202;
+}
+.nav_card1{
+    display: flex;
+}
+.nav_card1 img{
+    height: 20px;
+    width: 30px;
+}
